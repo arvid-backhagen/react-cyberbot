@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "react-cyberbot-20190327114551-authRole",
+            "UnauthRoleArn": "arn:aws:iam::613742281595:role/react-cyberbot-20190327114551-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::613742281595:role/react-cyberbot-20190327114551-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "react-cyberbot-20190327114551-deployment",
+            "UnauthRoleName": "react-cyberbot-20190327114551-unauthRole",
+            "StackName": "react-cyberbot-20190327114551",
+            "StackId": "arn:aws:cloudformation:eu-west-1:613742281595:stack/react-cyberbot-20190327114551/7fd91ce0-507d-11e9-90a4-0a692a24f4a4"
+        }
+    }
+}
