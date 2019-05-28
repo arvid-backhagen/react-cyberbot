@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@livechat/ui-kit": "^0.4.0-1",
+    "@microsoft/microsoft-graph-client": "^1.5.2",
     "aws-amplify": "^1.1.22",
+    "msal": "^0.2.4",
     "react": "^16.8.5",
-    "react-chat-ui": "^0.3.2",
     "react-dom": "^16.8.5",
     "react-icons": "^3.5.0",
+    "react-linkify": "^0.2.2",
     "react-scripts": "2.1.8"
   },
   "scripts": {

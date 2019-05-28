@@ -2,65 +2,120 @@
   height: 100vh;
   background-color: #282c34;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vw;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 20vh;
+  height: 10vh;
   pointer-events: none;
 }
 
 .App-header {
+  width: 100%;
   background-color: #282c34;
   display: flex;
   align-items: center;
-  margin: 0 10vw;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 1vw;
+  box-sizing: border-box;
 }
-
-.App-link {
-  color: #61dafb;
+.authSection {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  color: white;
+}
+.authSection span {
+  font-size: 14px;
+}
+.authButton {
+  border: none;
+  padding: 1em;
+  font-weight: bold;
+  border-radius: 1.4em;
+  background-color: #e0e0e0;
+}
+.authButton:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #d4d4d4;
 }
 .header-text {
   font-size: 6vw;
 }
+.Chat {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
 .chat-container {
   position: relative;
-  height: 80vh;
-  width: 80vw;
-  padding: 15px;
+  height: 100%;
+  width: 100%;
   background-color: white;
-  border-radius: 15px;
   overflow: auto;
   box-sizing: border-box;
   margin: 0 auto;
 }
+.chat-container > div {
+  /* MessageList */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.msgGroup {
+  max-width: 80%;
+}
+
+.userMsgGroup {
+  align-self: flex-end;
+}
 .inputfield {
-  position: fixed;
-  bottom: 0;
   display: flex;
   padding: 15;
   background-color: #282c34;
-  margin: 0 10vw;
-  width: 80vw;
+  width: 98vw;
+  border-top: 1px solid black;
   box-sizing: border-box;
 }
 .chat-form {
   display: flex;
   width: 100%;
 }
+.chat-input {
+  flex: 7;
+  padding: 0.8em;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.chat-input:active {
+  border: none;
+  outline: none;
+}
 .send-button {
   flex: 1;
   border: none;
-  border-radius: 15px;
-}
-.chat-input {
-  flex: 4;
-  border-radius: 15px;
-  padding: 0.5em;
+  background-color: white;
   font-size: 1.2em;
-  box-sizing: border-box;
+}
+.send-button:focus {
+  outline: none;
+}
+.send-button:hover {
+  cursor: pointer;
+  color: #015599;
+}
+.send-button:active {
+  outline: none;
+  cursor: pointer;
+  color: #0076d6;
 }
 
 @keyframes App-logo-spin {
