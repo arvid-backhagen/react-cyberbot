@@ -5,7 +5,7 @@
   "dependencies": {
     "@livechat/ui-kit": "^0.4.0-1",
     "@microsoft/microsoft-graph-client": "^1.5.2",
-    "aws-amplify": "^1.1.22",
+    "aws-amplify": "^1.1.28",
     "msal": "^0.2.4",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
