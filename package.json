@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@livechat/ui-kit": "^0.4.0-1",
-    "@microsoft/microsoft-graph-client": "^1.5.2",
+    "@livechat/ui-kit": "^0.5.0-35",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
     "aws-amplify": "^6.15.7",
     "msal": "^0.2.4",
     "react": "^16.8.5",
